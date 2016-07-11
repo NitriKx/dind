@@ -11,5 +11,3 @@ ADD wrapdocker /usr/local/bin/wrapdocker
 RUN chmod +x /usr/local/bin/wrapdocker
 
 ENTRYPOINT [ "/usr/local/bin/wrapdocker" ]
-
-CMD ["/bin/bash" , "-l"]
